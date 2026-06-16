@@ -1,0 +1,43 @@
+.dashboard {
+  padding: 40px;
+  background: linear-gradient(135deg, #eef2ff, #f9fafb);
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 500;
+}

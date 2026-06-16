@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  
+  /* 🌈 soft gradient */
+  background: linear-gradient(135deg, #FFF9E6, #EDE9FE);
+}
+
+/* container */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card */
+.login-box {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* title */
+.login-box h1 {
+  margin-bottom: 20px;
+  color: #312E81;
+}
+
+/* inputs */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* ✨ focus glow */
+.login-box input:focus {
+  border-color: #A78BFA;
+  box-shadow: 0 0 8px rgba(167,139,250,0.5);
+}
+
+/* button */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+
+  background: linear-gradient(135deg, #A78BFA, #6366F1);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* 🚀 hover */
+.login-box button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(99,102,241,0.4);
+}
